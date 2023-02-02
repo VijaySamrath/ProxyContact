@@ -7,7 +7,7 @@ contract BoxV3 is Initializable {
   uint public width;
   uint public length;
 
-  function initialize(uint _length, uint _width) public initializer {
+  function initialize(uint _length , uint _width) public initializer {
     length = _length;
     width = _width;
   }
